@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8622D07B860709E140EC3D /* Pods_HighwayToEvenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27EF2FBCD76BE529B5AE6F48 /* Pods_HighwayToEvenTests.framework */; };
+		AFE5E46824033461006C94D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E46724033461006C94D3 /* AppDelegate.swift */; };
+		AFE5E46A24033461006C94D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E46924033461006C94D3 /* SceneDelegate.swift */; };
+		AFE5E46C24033461006C94D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E46B24033461006C94D3 /* ViewController.swift */; };
+		AFE5E47F24033467006C94D3 /* HighwayToEvenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E47E24033467006C94D3 /* HighwayToEvenTests.swift */; };
+		AFE5E48A2403360D006C94D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE5E4892403360D006C94D3 /* Main.storyboard */; };
+		AFE5E49124033667006C94D3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E48D24033667006C94D3 /* Config.swift */; };
+		AFE5E49224033667006C94D3 /* SmartContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E48E24033667006C94D3 /* SmartContract.swift */; };
+		AFE5E49324033667006C94D3 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E48F24033667006C94D3 /* Session.swift */; };
+		AFE5E49424033667006C94D3 /* CustomEthereumKeyStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E49024033667006C94D3 /* CustomEthereumKeyStorage.swift */; };
+		AFE5E49524033774006C94D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE5E47024033467006C94D3 /* Assets.xcassets */; };
+		AFE5E49724033792006C94D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE5E47224033467006C94D3 /* LaunchScreen.storyboard */; };
+		AFE5E49A2403387A006C94D3 /* SmartContractResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E4992403387A006C94D3 /* SmartContractResponses.swift */; };
+		AFE5E49C240338A3006C94D3 /* SmartContractEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E49B240338A3006C94D3 /* SmartContractEvents.swift */; };
+		AFE5E49E240338CA006C94D3 /* SmartContractFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE5E49D240338CA006C94D3 /* SmartContractFunctions.swift */; };
+		AFE5E4A0240343AA006C94D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AFE5E49F240343AA006C94D3 /* README.md */; };
+		F5B6C6A96B9EFAAAC6EDD879 /* Pods_HighwayToEven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790F915898182CC75A39D29B /* Pods_HighwayToEven.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFE5E47B24033467006C94D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE5E45C24033461006C94D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE5E46324033461006C94D3;
+			remoteInfo = HighwayToEven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BC9BD3B5DD016FAF4BD92A /* Pods-HighwayToEvenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayToEvenTests.debug.xcconfig"; path = "Target Support Files/Pods-HighwayToEvenTests/Pods-HighwayToEvenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27EF2FBCD76BE529B5AE6F48 /* Pods_HighwayToEvenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighwayToEvenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BC56F3D69A8E4FB8174EFF /* Pods-HighwayToEven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayToEven.debug.xcconfig"; path = "Target Support Files/Pods-HighwayToEven/Pods-HighwayToEven.debug.xcconfig"; sourceTree = "<group>"; };
+		588D650A1BF62F07555F9940 /* Pods-HighwayToEven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayToEven.release.xcconfig"; path = "Target Support Files/Pods-HighwayToEven/Pods-HighwayToEven.release.xcconfig"; sourceTree = "<group>"; };
+		790F915898182CC75A39D29B /* Pods_HighwayToEven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighwayToEven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8615EFF76AE2E155216F4022 /* Pods-HighwayToEvenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayToEvenTests.release.xcconfig"; path = "Target Support Files/Pods-HighwayToEvenTests/Pods-HighwayToEvenTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE5E46424033461006C94D3 /* HighwayToEven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighwayToEven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE5E46724033461006C94D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFE5E46924033461006C94D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFE5E46B24033461006C94D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFE5E47024033467006C94D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFE5E47324033467006C94D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFE5E47524033467006C94D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE5E47A24033467006C94D3 /* HighwayToEvenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighwayToEvenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE5E47E24033467006C94D3 /* HighwayToEvenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighwayToEvenTests.swift; sourceTree = "<group>"; };
+		AFE5E48024033467006C94D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFE5E4892403360D006C94D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AFE5E48D24033667006C94D3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		AFE5E48E24033667006C94D3 /* SmartContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartContract.swift; sourceTree = "<group>"; };
+		AFE5E48F24033667006C94D3 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		AFE5E49024033667006C94D3 /* CustomEthereumKeyStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomEthereumKeyStorage.swift; sourceTree = "<group>"; };
+		AFE5E4992403387A006C94D3 /* SmartContractResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartContractResponses.swift; sourceTree = "<group>"; };
+		AFE5E49B240338A3006C94D3 /* SmartContractEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartContractEvents.swift; sourceTree = "<group>"; };
+		AFE5E49D240338CA006C94D3 /* SmartContractFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartContractFunctions.swift; sourceTree = "<group>"; };
+		AFE5E49F240343AA006C94D3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE5E46124033461006C94D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B6C6A96B9EFAAAC6EDD879 /* Pods_HighwayToEven.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE5E47724033467006C94D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8622D07B860709E140EC3D /* Pods_HighwayToEvenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EF742F697775D781D8434CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790F915898182CC75A39D29B /* Pods_HighwayToEven.framework */,
+				27EF2FBCD76BE529B5AE6F48 /* Pods_HighwayToEvenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE5E45B24033461006C94D3 = {
+			isa = PBXGroup;
+			children = (
+				AFE5E46624033461006C94D3 /* HighwayToEven */,
+				AFE5E47D24033467006C94D3 /* HighwayToEvenTests */,
+				AFE5E46524033461006C94D3 /* Products */,
+				B5C3960881EFE8E92AF06E36 /* Pods */,
+				8EF742F697775D781D8434CE /* Frameworks */,
+				AFE5E49F240343AA006C94D3 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE5E46524033461006C94D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5E46424033461006C94D3 /* HighwayToEven.app */,
+				AFE5E47A24033467006C94D3 /* HighwayToEvenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE5E46624033461006C94D3 /* HighwayToEven */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5E49824033854006C94D3 /* SmartContract */,
+				AFE5E48D24033667006C94D3 /* Config.swift */,
+				AFE5E49024033667006C94D3 /* CustomEthereumKeyStorage.swift */,
+				AFE5E48F24033667006C94D3 /* Session.swift */,
+				AFE5E46724033461006C94D3 /* AppDelegate.swift */,
+				AFE5E46924033461006C94D3 /* SceneDelegate.swift */,
+				AFE5E46B24033461006C94D3 /* ViewController.swift */,
+				AFE5E4892403360D006C94D3 /* Main.storyboard */,
+				AFE5E47024033467006C94D3 /* Assets.xcassets */,
+				AFE5E47224033467006C94D3 /* LaunchScreen.storyboard */,
+				AFE5E47524033467006C94D3 /* Info.plist */,
+			);
+			path = HighwayToEven;
+			sourceTree = "<group>";
+		};
+		AFE5E47D24033467006C94D3 /* HighwayToEvenTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5E47E24033467006C94D3 /* HighwayToEvenTests.swift */,
+				AFE5E48024033467006C94D3 /* Info.plist */,
+			);
+			path = HighwayToEvenTests;
+			sourceTree = "<group>";
+		};
+		AFE5E49824033854006C94D3 /* SmartContract */ = {
+			isa = PBXGroup;
+			children = (
+				AFE5E48E24033667006C94D3 /* SmartContract.swift */,
+				AFE5E4992403387A006C94D3 /* SmartContractResponses.swift */,
+				AFE5E49B240338A3006C94D3 /* SmartContractEvents.swift */,
+				AFE5E49D240338CA006C94D3 /* SmartContractFunctions.swift */,
+			);
+			path = SmartContract;
+			sourceTree = "<group>";
+		};
+		B5C3960881EFE8E92AF06E36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44BC56F3D69A8E4FB8174EFF /* Pods-HighwayToEven.debug.xcconfig */,
+				588D650A1BF62F07555F9940 /* Pods-HighwayToEven.release.xcconfig */,
+				00BC9BD3B5DD016FAF4BD92A /* Pods-HighwayToEvenTests.debug.xcconfig */,
+				8615EFF76AE2E155216F4022 /* Pods-HighwayToEvenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE5E46324033461006C94D3 /* HighwayToEven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE5E48324033467006C94D3 /* Build configuration list for PBXNativeTarget "HighwayToEven" */;
+			buildPhases = (
+				1F6C08A3FD077E7CDBB8F968 /* [CP] Check Pods Manifest.lock */,
+				AFE5E46024033461006C94D3 /* Sources */,
+				AFE5E46124033461006C94D3 /* Frameworks */,
+				AFE5E46224033461006C94D3 /* Resources */,
+				4C68E4EAE8CF5D074101F090 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighwayToEven;
+			productName = HighwayToEven;
+			productReference = AFE5E46424033461006C94D3 /* HighwayToEven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFE5E47924033467006C94D3 /* HighwayToEvenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE5E48624033467006C94D3 /* Build configuration list for PBXNativeTarget "HighwayToEvenTests" */;
+			buildPhases = (
+				C147B37DFFCDE0B2D4DB8A1F /* [CP] Check Pods Manifest.lock */,
+				AFE5E47624033467006C94D3 /* Sources */,
+				AFE5E47724033467006C94D3 /* Frameworks */,
+				AFE5E47824033467006C94D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE5E47C24033467006C94D3 /* PBXTargetDependency */,
+			);
+			name = HighwayToEvenTests;
+			productName = HighwayToEvenTests;
+			productReference = AFE5E47A24033467006C94D3 /* HighwayToEvenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE5E45C24033461006C94D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Philippe Mercier";
+				TargetAttributes = {
+					AFE5E46324033461006C94D3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					AFE5E47924033467006C94D3 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = AFE5E46324033461006C94D3;
+					};
+				};
+			};
+			buildConfigurationList = AFE5E45F24033461006C94D3 /* Build configuration list for PBXProject "HighwayToEven" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFE5E45B24033461006C94D3;
+			productRefGroup = AFE5E46524033461006C94D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE5E46324033461006C94D3 /* HighwayToEven */,
+				AFE5E47924033467006C94D3 /* HighwayToEvenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE5E46224033461006C94D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE5E49724033792006C94D3 /* LaunchScreen.storyboard in Resources */,
+				AFE5E49524033774006C94D3 /* Assets.xcassets in Resources */,
+				AFE5E4A0240343AA006C94D3 /* README.md in Resources */,
+				AFE5E48A2403360D006C94D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE5E47824033467006C94D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F6C08A3FD077E7CDBB8F968 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighwayToEven-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C68E4EAE8CF5D074101F090 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighwayToEven/Pods-HighwayToEven-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HighwayToEven/Pods-HighwayToEven-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HighwayToEven/Pods-HighwayToEven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C147B37DFFCDE0B2D4DB8A1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighwayToEvenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE5E46024033461006C94D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE5E46C24033461006C94D3 /* ViewController.swift in Sources */,
+				AFE5E49224033667006C94D3 /* SmartContract.swift in Sources */,
+				AFE5E49324033667006C94D3 /* Session.swift in Sources */,
+				AFE5E49124033667006C94D3 /* Config.swift in Sources */,
+				AFE5E46824033461006C94D3 /* AppDelegate.swift in Sources */,
+				AFE5E46A24033461006C94D3 /* SceneDelegate.swift in Sources */,
+				AFE5E49A2403387A006C94D3 /* SmartContractResponses.swift in Sources */,
+				AFE5E49E240338CA006C94D3 /* SmartContractFunctions.swift in Sources */,
+				AFE5E49C240338A3006C94D3 /* SmartContractEvents.swift in Sources */,
+				AFE5E49424033667006C94D3 /* CustomEthereumKeyStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE5E47624033467006C94D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE5E47F24033467006C94D3 /* HighwayToEvenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFE5E47C24033467006C94D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE5E46324033461006C94D3 /* HighwayToEven */;
+			targetProxy = AFE5E47B24033467006C94D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFE5E47224033467006C94D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE5E47324033467006C94D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE5E48124033467006C94D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFE5E48224033467006C94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE5E48424033467006C94D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BC56F3D69A8E4FB8174EFF /* Pods-HighwayToEven.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HighwayToEven/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmercier.HighwayToEven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFE5E48524033467006C94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588D650A1BF62F07555F9940 /* Pods-HighwayToEven.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HighwayToEven/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmercier.HighwayToEven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFE5E48724033467006C94D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BC9BD3B5DD016FAF4BD92A /* Pods-HighwayToEvenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HighwayToEvenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmercier.HighwayToEvenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighwayToEven.app/HighwayToEven";
+			};
+			name = Debug;
+		};
+		AFE5E48824033467006C94D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8615EFF76AE2E155216F4022 /* Pods-HighwayToEvenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HighwayToEvenTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmercier.HighwayToEvenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HighwayToEven.app/HighwayToEven";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE5E45F24033461006C94D3 /* Build configuration list for PBXProject "HighwayToEven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE5E48124033467006C94D3 /* Debug */,
+				AFE5E48224033467006C94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE5E48324033467006C94D3 /* Build configuration list for PBXNativeTarget "HighwayToEven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE5E48424033467006C94D3 /* Debug */,
+				AFE5E48524033467006C94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE5E48624033467006C94D3 /* Build configuration list for PBXNativeTarget "HighwayToEvenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE5E48724033467006C94D3 /* Debug */,
+				AFE5E48824033467006C94D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE5E45C24033461006C94D3 /* Project object */;
+}
